@@ -154,7 +154,7 @@ export default function HomePage() {
       ══════════════════════════════ */}
       <section style={{ backgroundColor: "#fff", padding: "6rem 0" }}>
         <div className="site-container">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1.6fr", gap: "5rem", alignItems: "start" }}>
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr] gap-10 lg:gap-20 items-start">
 
             {/* Left col */}
             <div>
